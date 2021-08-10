@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="light" />
       <Text style={styles.text}>It works lol</Text>
-      <Button title="Click me" onPress={btnLog} />
+      <Button title="Click me" onPress={btnLog} color="#faa" />
     </View>
   );
 }
@@ -25,5 +25,5 @@ const styles = StyleSheet.create({
   },
   text: {
     color: '#fff',
-  }
+  },
 });
